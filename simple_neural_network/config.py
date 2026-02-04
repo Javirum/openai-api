@@ -11,12 +11,12 @@ DOG_CLASS = 5
 
 # Training parameters
 EPOCHS = 20
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 
 # Model architecture
 INPUT_SHAPE = 3072  # 32 * 32 * 3
-HIDDEN_LAYER_1_UNITS = 128
-HIDDEN_LAYER_2_UNITS = 64
+HIDDEN_LAYER_1_UNITS = 32
+HIDDEN_LAYER_2_UNITS = 16
 
 # Paths
 SAVED_MODELS_DIR = 'saved_models'
